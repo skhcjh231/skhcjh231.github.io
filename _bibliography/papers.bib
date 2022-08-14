@@ -7,7 +7,7 @@
 
 @inproceedings{kim2022restr,
   title={ReSTR: Convolution-free Referring Image Segmentation Using Transformers},
-  author={Kim, Namyup and Kim, Dongwon and Lan, Cuiling and Zeng, Wenjun and Kwak, Suha},
+  author={Namyup Kim and Dongwon Kim and Cuiling Lan and Wenjun Zeng and Suha Kwak},
   abstract={Referring image segmentation is an advanced semantic segmentation task where target is not a predefined class but is described in natural language. Most of existing methods for this task rely heavily on convolutional neural networks, which however have trouble capturing long-range dependencies between entities in the language expression and are not flexible enough for modeling interactions between the two different modalities. To address these issues, we present the first convolution-free model for referring image segmentation using transformers, dubbed ReSTR. Since it extracts features of both modalities through transformer encoders, it can capture long-range dependencies between entities within each modality. Also, ReSTR fuses features of the two modalities by a self-attention encoder, which enables flexible and adaptive interactions between the two modalities in the fusion process. The fused features are fed to a segmentation module, which works adaptively according to the image and language expression in hand. ReSTR is evaluated and compared with previous work on all public benchmarks, where it outperforms all existing models.},
   booktitle=CVPR,
   year={2022},
@@ -20,7 +20,7 @@
 
 @inproceedings{kang2022styneophile,
   title={Style Neophile: Constantly Seeking Novel Styles for Domain Generalization},
-  author={Son, Taeyoung and Kang, Juwon and Kim, Namyup and Cho, Sunghyun and Kwak, Suha},
+  author={Juwon Kang and Sohyun Lee and Namyup Kim and Suha Kwak},
   abstract={This paper studies domain generalization via domain-invariant representation learning. Existing methods in this direction suppose that a domain can be characterized by styles of its images, and train a network using style-augmented data so that the network is not biased to par-ticular style distributions. However, these methods are restricted to a finite set of styles since they obtain styles for augmentation from a fixed set of external images or by interpolating those of training data. To address this limitation and maximize the benefit of style augmentation, we propose a new method that synthesizes novel styles constantly during training. Our method manages multiple queues to store styles that have been observed so far, and synthesizes novel styles whose distribution is distinct from the distribution of styles in the queues. The style synthesis process is formulated as a monotone submodular optimization, thus can be conducted efficiently by a greedy algorithm. Extensive experiments on four public benchmarks demonstrate that the proposed method is capable of achieving state-of-the-art domain generalization performance.},
   booktitle=CVPR,
   year={2022},
@@ -33,7 +33,7 @@
 
 @inproceedings{son2020urie,
   title={Urie: Universal image enhancement for visual recognition in the wild},
-  author={Kang, Juwon and Lee, Sohyun, Kim, Namyup and Kwak, Suha},
+  author={Taeyoung Son and Juwon Kang and Namyup Kim and Sunghyun Cho and Suha Kwak},
   abstract={Despite the great advances in visual recognition, it has been witnessed that recognition models trained on clean images of common datasets are not robust against distorted images in the real world. To tackle this issue, we present a Universal and Recognition-friendly Image Enhancement network, dubbed URIE, which is attached in front of existing recognition models and enhances distorted input to improve their performance without retraining them. URIE is universal in that it aims to handle various factors of image degradation and to be incorporated with any arbitrary recognition models. Also, it is recognition-friendly since it is optimized to improve the robustness of following recognition models, instead of perceptual quality of output image. Our experiments demonstrate that URIE can handle various and latent image distortions and improve the performance of existing models for five diverse recognition tasks when input images are degraded.},
   booktitle=ECCV,
   year={2020},
