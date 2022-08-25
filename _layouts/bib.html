@@ -125,6 +125,10 @@
 
           </div>
 
+          {% if entry.equal_contrib -%}
+            {{"(*equal contribution)"}}
+          {%- endif %}
+
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
