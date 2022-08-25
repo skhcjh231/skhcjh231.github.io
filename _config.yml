@@ -108,7 +108,8 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  # enabled: true
+  enabled: false
 
 # Comments
 disqus_shortname: namyupkim # put your disqus shortname
@@ -221,8 +222,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Kim
+  first_name: [Namyup, N.]
 
   style: apa
   locale: en
