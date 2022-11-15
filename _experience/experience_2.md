@@ -7,4 +7,4 @@ inline: true
 [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (Remote), Beijing, China \
 *Research Intern*
 - Researched on domain generalization and referring image segmentation.
-- Mentor: Cuiling Lan
+- Mentor: Dr. Cuiling Lan
