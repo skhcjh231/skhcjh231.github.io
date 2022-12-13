@@ -8,7 +8,7 @@ inline: true
 
 **NAVER Ph.D. Fellowship Award (2022)**
 - Winner ($4,000)
-- 
+  
 **Qualcomm Innovation Fellowship South Korea (2022)**
 - Winner ($3,000) \- *ReSTR: Convolution‑free Referring Image Segmentation Using Transformers* (CVPR2022)
 
