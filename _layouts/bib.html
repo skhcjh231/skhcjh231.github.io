@@ -125,10 +125,6 @@
             {{" (*equal contribution)"}}
           {%- endif %}
 
-          {% if entry.award -%}
-          <span style="color:#0073bb"><b>{{entry.award}}</b></span>
-          {%- endif %}
-          
           </div>
 
 
@@ -151,6 +147,12 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+
+        
+        {% if entry.award -%}
+        <span style="color:#0073bb"><b>{{entry.award}}</b></span>
+        {%- endif %}
+        
         
           <!-- Links/Buttons -->
           <div class="links">
