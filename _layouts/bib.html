@@ -124,6 +124,10 @@
           {% if entry.equal_contrib -%}
             {{" (*equal contribution)"}}
           {%- endif %}
+
+          {% if entry.award -%}
+          <span style="color:#0073bb"><b>{{entry.award}}</b></span>
+          {%- endif %}
           
           </div>
 
