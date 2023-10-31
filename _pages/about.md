@@ -6,7 +6,7 @@ subtitle: Ph.D. student in the <a href='http://cvlab.postech.ac.kr/lab/'>Compute
 
 profile:
   align: right
-  image: prof_namyup.jpg
+  image: prof_namyup_23.jpg
   image_cicular: true # crops the image to make it circular
   address: > 
 
