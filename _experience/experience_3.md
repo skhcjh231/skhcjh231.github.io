@@ -6,4 +6,4 @@ inline: true
 
 [Tübingen AI Center, University of Tübingen](https://tuebingen.ai/), Tübingen, Germany \
 *Visiting Research Student*
-- Host: Dr. SEong Joon Oh
+- Host: Prof. Seong Joon Oh
