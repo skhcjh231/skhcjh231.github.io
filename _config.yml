@@ -145,6 +145,11 @@ collections:
       layout: post
     output: true
     permalink: /experience/:path/
+  academic:
+    defaults:
+      layout: post
+    output: true
+    permalink: /academic/:path/
   honors:
     defaults:
       layout: post
