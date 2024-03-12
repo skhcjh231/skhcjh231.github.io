@@ -64,6 +64,11 @@ layout: default
           <!-- Experience -->
           {%- include honors.html %}
           {%- endif %}
+
+          {% if page.academic -%}
+          <!-- Experience -->
+          {%- include academic.html %}
+          {%- endif %}
           
           {%- if page.social %}
           <!-- Social -->
