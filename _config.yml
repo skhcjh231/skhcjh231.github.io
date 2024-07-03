@@ -3,17 +3,17 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Youngkil Song
+first_name: Youngkil
 middle_name: 
-last_name: Kim
-email: Youngkil Song@postech.ac.kr
+last_name: Song
+email: songyk@postech.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Youngkil Song's personal webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Youngkil Song  # add your own keywords or leave empty
+keywords: Youngkil  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: southflame # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: Youngkil Songkim # your LinkedIn user name
+linkedin_username: youngkil-song-8936792a3 # your LinkedIn user name
 scholar_userid: s0gtpmIAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -112,7 +112,7 @@ pagination:
   enabled: false
 
 # Comments
-disqus_shortname: Youngkil Songkim # put your disqus shortname
+disqus_shortname: Youngkil Song # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -243,8 +243,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Kim
-  first_name: [Youngkil Song, N.]
+  last_name: Song
+  first_name: [Youngkil, N.]
 
   style: apa
   locale: en
