@@ -3,17 +3,17 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Namyup
+first_name: Youngkil Song
 middle_name: 
 last_name: Kim
-email: namyup@postech.ac.kr
+email: Youngkil Song@postech.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Namyup's personal webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Youngkil Song's personal webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: namyup  # add your own keywords or leave empty
+keywords: Youngkil Song  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: southflame # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: namyupkim # your LinkedIn user name
+linkedin_username: Youngkil Songkim # your LinkedIn user name
 scholar_userid: s0gtpmIAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -101,7 +101,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Namyup's blog page # blog_name will be displayed in your blog page
+blog_name: Youngkil Song's blog page # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
@@ -112,7 +112,7 @@ pagination:
   enabled: false
 
 # Comments
-disqus_shortname: namyupkim # put your disqus shortname
+disqus_shortname: Youngkil Songkim # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -244,7 +244,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: Kim
-  first_name: [Namyup, N.]
+  first_name: [Youngkil Song, N.]
 
   style: apa
   locale: en
