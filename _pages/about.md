@@ -6,7 +6,7 @@ subtitle: Ph.D. student in the <a href='http://cvlab.postech.ac.kr/lab/'>Compute
 
 profile:
   align: right
-  image: prof_namyup_23.png
+  image: prof_youngkil.png
   image_cicular: true # crops the image to make it circular
   address: > 
 
@@ -20,9 +20,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a Ph.D. student in [Computer Science Engineering department](https://cse.postech.ac.kr/) at [POSTECH](https://postech.ac.kr/eng/), working as a member of the [Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), advised by Prof. [Suha Kwak](https://suhakwak.github.io/).
-<!-- Previously, I completed my B.S. in Mechanical Engineering at POSTECH. -->
 
-My research lies in computer vision and deep learning including, but not limited to, multimodal learning, domain generalization, weakly supervised learning and its applications.
-I am particularly interested in referring image segmentation which is an advanced semantic
-segmentation task where target is not a predefined class but is described in natural language.
+My research lies in computer vision and deep learning including, but not limited to, video understanding, localization and its applications.
 If you are interested in my research projects, please feel free to contact me.
