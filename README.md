@@ -1,3 +1,3 @@
-# Namyup Kim's Homepage
+# Youngkil Song's Homepage
 
 This repository contains the source code for [my homepage](https://southflame.github.io).
