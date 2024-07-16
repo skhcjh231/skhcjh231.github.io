@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-06-27 15:59:00-0400
+date: 2024-07-02 07:59:00-0400
 inline: true
 ---
 
-📜 A paper on weakly supervised learning for semantic boundary detection is accepted to IJCV.
+📜 Two papers on online temporal localization and group action detection are accepted to ECCV 2024.
