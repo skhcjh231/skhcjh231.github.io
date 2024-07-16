@@ -16,7 +16,7 @@
   booktitle=ECCV,
   year={2024},
   abbr={ECCV},
-  selected={true},
+  selected={false},
   img_path={assets/img/publication_preview/lee2024frest.jpg}
 }
 
@@ -29,7 +29,7 @@
   abbr={ICCV},
   arxiv={2308.15512},
   equal_contrib={true},
-  selected={true},
+  selected={false},
   code={https://github.com/kdwonn/sag},
   website={https://southflame.github.io/sag/},
   img_path={assets/img/publication_preview/kim2023shatter.jpg}
@@ -43,7 +43,7 @@
   year={2023},
   abbr={CVPR},
   arxiv={2211.16761},
-  selected={true},
+  selected={false},
   website={http://cvlab.postech.ac.kr/research/DivE},
   img_path={assets/img/publication_preview/kim2023improving.jpg},
   award={(Highlight, 235/9155=2.5\%)}
@@ -58,7 +58,7 @@
   year={2023},
   abbr={ICRA},
   arxiv={2109.14196},
-  selected={true},
+  selected={false},
   website={http://cvlab.postech.ac.kr/research/wedge},
   img_path={assets/img/publication_preview/kim2021wedge.jpg}
 }
@@ -72,7 +72,7 @@
   year={2022},
   abbr={CVPR},
   arxiv={2203.16768},
-  selected={true},
+  selected={false},
   code={https://github.com/southflame/restr},
   website={http://cvlab.postech.ac.kr/research/restr/},
   img_path={assets/img/publication_preview/kim2022restr.jpg}
@@ -86,7 +86,7 @@
   booktitle=CVPR,
   year={2022},
   abbr={CVPR},
-  selected={true},
+  selected={false},
   website={http://cvlab.postech.ac.kr/research/StyleNeophile/},
   img_path={assets/img/publication_preview/kang2022styneophile.jpg}
 }
@@ -100,7 +100,7 @@
   year={2022},
   abbr={IJCV},
   equal_contrib={true},
-  selected={true},
+  selected={false},
   arxiv={2212.07579},
   img_path={assets/img/publication_preview/kim2022learning.jpg}
 }
@@ -114,9 +114,22 @@
   year={2020},
   abbr={ECCV},
   arxiv={2007.08979},
-  selected={true},
+  selected={false},
   code={https://github.com/taeyoungson/urie},
   website={http://cvlab.postech.ac.kr/research/URIE/},
   img_path={assets/img/publication_preview/son2020urie.jpg}
+}
+
+@inproceedings{song2024ontal,
+  title={Online Temporal Action Localization with Memory-Augmented Transoformer},
+  author={Youngkil Song* and Dongkeun Kim* and Minsu Cho and Suha Kwak},
+  abstract={Online temporal action localization (On-TAL) is the task of identifying multiple action instances given a streaming video. Since existing methods take as input only a video segment of fixed size per iteration, they are limited in considering long-term context and require tuning the segment size carefully. To overcome these limitations, we propose memory-augmented transformer (MATR). MATR utilizes the memory queue that selectively preserves the past segment features, allowing to leverage long-term context for inference. We also propose a novel action localization method that observes the current input segment to predict the end time of the ongoing action and accesses the memory queue to estimate the start time of the action. Our method outperformed existing methods on two datasets, THUMOS14 and MUSES, surpassing not only TAL methods in the online setting but also some offline TAL methods.},
+  booktitle=ECCV,
+  year={2024},
+  abbr={ECCV},
+  equal_contrib={true},
+  selected={true},
+  code={https://github.com/skhcjh231/MATR_codebase},
+  img_path={assets/img/publication_preview/ontal_teaser.png}
 }
 

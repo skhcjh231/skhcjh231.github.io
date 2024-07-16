@@ -1,9 +1,9 @@
 ---
 layout: post
-start_end: "Mar, 2011 - Feb, 2018"
+start_end: "Mar, 2016 - Feb, 2022"
 inline: true
 ---
 
-[Soongsil University](https://eng.ssu.ac.kr/), Seoul, South Korea \
+[Hanyang University](https://www.hanyang.ac.kr/), Seoul, South Korea \
 B.S. in  Electronic Engineering \
-Advisor: Prof. Dongsung Kim
+Advisor: Prof. Seongho Cho
