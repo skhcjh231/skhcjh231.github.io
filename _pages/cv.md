@@ -5,5 +5,5 @@ title: CV
 nav: false
 # nav_order: 4
 # nav: false
-cv_pdf: CV_Youngkil.pdf
+cv_pdf: cv_youngkil.pdf
 ---
