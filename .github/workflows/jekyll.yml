@@ -33,7 +33,7 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _site          # 결과물 위치
 
@@ -44,5 +44,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v2
+      - uses: actions/deploy-pages@v4
         id: deploy
