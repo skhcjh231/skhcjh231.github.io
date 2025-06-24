@@ -191,12 +191,13 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
-  - jekyll-email-protect
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-target-blank
   - jemoji
+  # GitHub Pages에서 지원하지 않는 플러그인들 제거
+  # - jekyll-archives
+  # - jekyll-email-protect
+  # - jekyll-target-blank
 
 # Sitemap settings
 defaults:
@@ -204,21 +205,6 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
-
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
 
@@ -246,7 +232,6 @@ enable_navbar_social:       true  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
 
 # -----------------------------------------------------------------------------
 # Library versions
