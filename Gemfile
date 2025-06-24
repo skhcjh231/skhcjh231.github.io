@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "jekyll", "~> 4.4.1"
+
 # GitHub Pages 호환성을 위한 최소 설정
 group :jekyll_plugins do
     gem 'jekyll'
@@ -9,6 +11,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'webrick'
     gem "jekyll-twitter-plugin", "~> 2.1"
+    gem "jekyll-scholar", "~> 7.0"
     # GitHub Pages에서 지원하지 않는 플러그인들 제거
     # gem 'jekyll-archives'
     # gem 'jekyll-email-protect'
