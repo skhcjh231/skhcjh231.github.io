@@ -194,6 +194,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jemoji
+  - jekyll-twitter-plugin
+  - jekyll-seo-tag
   # GitHub Pages에서 지원하지 않는 플러그인들 제거
   # - jekyll-archives
   # - jekyll-email-protect
