@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.4.1"
-
 # GitHub Pages 호환성을 위한 최소 설정
 group :jekyll_plugins do
-    gem 'jekyll'
+    gem "jekyll", "~> 4.4.1"
     gem 'jekyll-feed'
     gem 'jekyll-sitemap'
     gem 'jekyll-seo-tag'
