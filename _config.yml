@@ -109,7 +109,7 @@ permalink: /blog/:year/:title/
 # Pagination
 pagination:
   # enabled: true
-  enabled: false
+  enabled: false  # GitHub Pages에서 jekyll-paginate-v2를 지원하지 않으므로 비활성화
 
 # Comments
 disqus_shortname: Youngkil Song # put your disqus shortname
@@ -192,16 +192,10 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-imagemagick
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -210,15 +204,6 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
-
-# -----------------------------------------------------------------------------
-# Jekyll Minifier
-# -----------------------------------------------------------------------------
-
-jekyll-minifier:
-  exclude: ['robots.txt']
-  uglifier_args:
-    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -236,35 +221,6 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
-
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
-
-scholar:
-
-  last_name: Song
-  first_name: [Youngkil, N.]
-
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
@@ -291,15 +247,6 @@ imagemagick:
     - ".tiff"
   output_formats:
     webp: "-resize 800x"
-
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
-
 
 # -----------------------------------------------------------------------------
 # Optional Features
