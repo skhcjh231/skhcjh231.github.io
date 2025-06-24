@@ -5,6 +5,7 @@ group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-feed'
     gem 'jekyll-sitemap'
+    gem 'jekyll-seo-tag'
     gem 'jemoji'
     gem 'webrick'
     gem "jekyll-twitter-plugin", "~> 2.1"
