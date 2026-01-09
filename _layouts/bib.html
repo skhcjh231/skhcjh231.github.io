@@ -43,7 +43,8 @@
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
-            {%- if author.first == "Youngkil Song" %}
+            {%- assign author_is_self = false -%}
+            {%- if author.last == site.last_name and author.first contains site.first_name -%}
               {%- assign author_is_self = true -%}
             {%- endif -%}
             {%- assign coauthor_url = nil -%}
